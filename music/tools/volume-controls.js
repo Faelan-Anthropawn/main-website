@@ -699,12 +699,12 @@ function handleDragEnd() {
 
 if (handleStart) {
     handleStart.addEventListener('mousedown', (e) => handleDragStart(e, 'start'));
-    handleStart.addEventListener('touchstart', (e) => handleDragStart(e, 'start'));
+    handleStart.addEventListener('passive', (e) => handleDragStart(e, 'start'));
 }
 
 if (handleEnd) {
     handleEnd.addEventListener('mousedown', (e) => handleDragStart(e, 'end'));
-    handleEnd.addEventListener('touchstart', (e) => handleDragStart(e, 'end'));
+    handleEnd.addEventListener('passive', (e) => handleDragStart(e, 'end'));
 }
 
 if (waveformContainer) {
