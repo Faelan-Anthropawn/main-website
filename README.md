@@ -1,7 +1,8 @@
 # Faelans Space
 
-A set of web-based tools for Minecraft Bedrock Edition and general audio processing. 
-Everything runs directly in your browser using plain JavaScript
+An open source set of web-based tools for Minecraft Bedrock Edition and general audio processing. 
+Everything runs directly in your browser using JavaScript
+a minimal node server file is included for local running (node server.js)
 
 ## Minecraft Tools
 
@@ -9,6 +10,7 @@ Everything runs directly in your browser using plain JavaScript
 *   **World Region Converter**: Extract and convert specific areas from Java world saves directly into Bedrock (non world)formats. Supports hollowing, block replacement, and various transformations.
 *   **Scoreboard Builder**: A visual editor for creating titleraw displays with support for color codes and formatting.
 *   **Addons**: A collection of my Bedrock addons focused on server utilities and tools.
+*   **Kit Builder**: Add items with any enchnats of any level into kits to be imported with an mcstructure.
 
 ## Audio Tools
 
@@ -19,8 +21,7 @@ Everything runs directly in your browser using plain JavaScript
 
 ## Planned Tools
 
-*   **Kit Builder**: Add items with any enchnats of any level into kits to be imported with an mcstructure.
-*   **Video Builder**: Simple music video building tool.  May require download (or slower webm dependency)
+*   **Video Builder**: Simple music video building tool.  May require download (or slower webm dependency, also slow progress)
 *   **Bonus**: May add a section for some random but useful stuff I make that I use to speed up dev work.  Think stuff like auto jar compilation
-*   **Server Hosting**: Requires download.  Fully loclly run bds server manager. (Slow progress)
+*   **Server Hosting**: Requires download.  Fully loclly run bds server manager. (Slow progress requires java installed)
 
