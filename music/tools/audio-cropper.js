@@ -554,9 +554,9 @@ function handleDragEnd() {
 }
 
 handleStart.addEventListener('mousedown', (e) => handleDragStart(e, 'start'));
-handleStart.addEventListener('touchstart', (e) => handleDragStart(e, 'start'));
+handleStart.addEventListener('passive', (e) => handleDragStart(e, 'start'));
 handleEnd.addEventListener('mousedown', (e) => handleDragStart(e, 'end'));
-handleEnd.addEventListener('touchstart', (e) => handleDragStart(e, 'end'));
+handleEnd.addEventListener('passive', (e) => handleDragStart(e, 'end'));
 
 waveformContainer.addEventListener('click', (e) => {
     if (draggingHandle) return;
